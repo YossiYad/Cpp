@@ -28,6 +28,7 @@ int main()
 		logic();
 		Sleep(100);
 	}
+  return 0;
 }
 
 void input()
@@ -193,5 +194,4 @@ void clearScrean()
 	system("clear");
 	
 #endif
-
 }
