@@ -182,7 +182,7 @@ void randFruit()
 		_fruitX = 1 + (rand() % (width - 1));
 		_fruitY = 1 + (rand() % (height - 1));
 		flag = true;
-		for (int i = 0; i < score; ++i)
+		for (int i = 1; i < score; ++i)
 		{
 			if (tailX[i] == _fruitX && tailY[i] == _fruitY)
 				flag = false;
