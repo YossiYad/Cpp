@@ -179,8 +179,8 @@ void randFruit()
 	srand(time(0));
 	while (!flag)
 	{
-		_fruitX = 1 + (rand() % (width - 1));
-		_fruitY = 1 + (rand() % (height - 1));
+		_fruitX = 1 + (rand() % (width - 2));
+		_fruitY = 1 + (rand() % (height - 2));
 		flag = true;
 		for (int i = 1; i < score; ++i)
 		{
